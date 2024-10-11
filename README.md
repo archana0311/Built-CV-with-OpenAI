@@ -15,7 +15,7 @@ Clone the Repository: Install Dependencies: pip install -r requirements.txt Set 
 
 Run the Application: python main.py
 
-4.Usage
+4. Usage
 Upload and Generate Upload Your CV: After launching the application, you'll be prompted to upload your CV in either PDF or DOCX format. Analyze and Generate: The system will analyze the CV, extract relevant details, and generate a professional HTML/CSS/JS portfolio. Preview and Download: The generated portfolio can be previewed on the web page. You can also download the HTML file for deployment.
 
 5. File Formats
@@ -23,19 +23,19 @@ This project supports the following CV file formats:
 
 PDF: Extracts text from PDF using pdfplumber. DOCX: Parses Microsoft Word .docx files using python-docx.
 
-6.Key Libraries Used:
+6. Key Libraries Used:
 pdfplumber: For extracting text from PDF files.
 python-docx: For reading and parsing DOCX files. 
 Gradio: Provides a web interface for file upload, preview, and download.
 OpenAI: Integrates with the OpenAI API to interact with the GPT model, enabling natural language processing and generating enhanced, tailored CVs based on the provided job descriptions.
 
-7.Web Interface:
+7. Web Interface:
 A Gradio-based interface is used for easy file upload and portfolio generation.
 
-8.Contributing
+8. Contributing
 We welcome contributions! To contribute: 1.Fork the repository. 2.Create a new feature branch: git checkout -b feature/your-feature 3.Commit your changes: git commit -m 'Add new feature' 4.Push to the branch: git push origin feature/your-feature
 
 Open a pull request and explain your changes.
 
-9.License
+9. License
 This project is licensed under the MIT License. See the LICENSE file for more detai
