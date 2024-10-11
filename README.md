@@ -35,3 +35,5 @@ Open a pull request and explain your changes.
 
 9. License
 This project is licensed under the MIT License. See the LICENSE file for more detai
+
+![Open your wings!!](bird.jpg)
