@@ -10,9 +10,7 @@ The model shall take the CV and Job Description (JD) as input. The model shall i
 
 3. Installations:
 Prerequisites Python 3.12: Make sure Python is installed on your system. Pip: Ensure you have pip for installing dependencies.
-
 Clone the Repository: Install Dependencies: pip install -r requirements.txt Set up API keys: OPENAI_API_KEY
-
 Run the Application: python main.py
 
 4. Usage
@@ -20,7 +18,6 @@ Upload and Generate Upload Your CV: After launching the application, you'll be p
 
 5. File Formats
 This project supports the following CV file formats:
-
 PDF: Extracts text from PDF using pdfplumber. DOCX: Parses Microsoft Word .docx files using python-docx.
 
 6. Key Libraries Used:
@@ -34,7 +31,6 @@ A Gradio-based interface is used for easy file upload and portfolio generation.
 
 8. Contributing
 We welcome contributions! To contribute: 1.Fork the repository. 2.Create a new feature branch: git checkout -b feature/your-feature 3.Commit your changes: git commit -m 'Add new feature' 4.Push to the branch: git push origin feature/your-feature
-
 Open a pull request and explain your changes.
 
 9. License
